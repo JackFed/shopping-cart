@@ -28,12 +28,17 @@ keep track of everything needed.
     - Navigation to each page
 
 ## Features
-### Homepage
-### Shop page
-### Shopping Cart
-* (Extra: Have option to check from any page with a popup)
-### Navbar
-### About page (extra)
+### Website Pages
+* Homepage
+* Shop items page
+* Shopping Cart
+    * (Extra: Have option to check from any page with a popup)
+* Navbar
+* About page (extra)
 
+### CSS
+Decide weither to make own components or use Tailwind.
+Create a plesant color scheme for the entire app.
 
-
+### Hosting
+Use GitHub Actions
