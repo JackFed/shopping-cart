@@ -27,7 +27,7 @@ keep track of everything needed.
 * Navigation bar
     - Navigation to each page
 
-## Features
+## Core design features
 ### Website Pages
 * Homepage
 * Shop items page
@@ -36,8 +36,13 @@ keep track of everything needed.
 * Navbar
 * About page (extra)
 
+### UI design
+Create a basic UI layout using a wireframe tool like Figma or just paper and pencil.
+Goal is to have a rough idea where elements should be for CSS. Decide if making 
+a mobile version is worth it for this project.
+
 ### CSS
-Decide weither to make own components or use Tailwind.
+Decide whether to make own components or use Tailwind.
 Create a plesant color scheme for the entire app.
 
 ### Hosting
