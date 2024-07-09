@@ -1,11 +1,17 @@
 # Shopping Cart App
 
 ## Goals
-This app will display external api shopping items through my own frontend. 
+This app will display external api (Spotify) shopping items through my own frontend. 
 It will be built using React and an external api. Trying to use README first design to
 keep track of everything needed.
 
 # Design
+## Use Spotify API
+Use the Spoify API to query for top 50 most listened to albums.
+Add an arbitrary price tag based on # of tracks and general album costs (~20-40 dollars).
+Display information for each track(track length, track name), number of tracks, artist, album name, 
+features, record label, and album cover image.
+
 ## Components
 * Homepage
     - Search bar
