@@ -46,6 +46,9 @@ features, record label, and album cover image.
 Create a basic UI layout using a wireframe tool like Figma or just paper and pencil.
 Goal is to have a rough idea where elements should be for CSS. Decide if making 
 a mobile version is worth it for this project.
+* Use color scheme like record store
+    * Cool neon color effect on header/store name.
+    * Wood colors with cream background and yellowish highlights (Like warm lights).
 
 ### CSS
 Decide whether to make own components or use Tailwind.
