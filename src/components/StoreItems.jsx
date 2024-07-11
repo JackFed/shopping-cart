@@ -9,7 +9,7 @@ export default function StoreItems() {
     // call get album from album id to get all tracks and info
 
     // TODO: Create function calls to fetch images and values for list items
-    // Add UUI to each inventory item to use for React's key property
+    // Add UUI to each inventory item to use for React's key property ()
     
     return (
         <div className="inventory">
