@@ -1,3 +1,4 @@
+import CartTotals from "./CartTotals";
 import CheckoutAlbum from "./CheckoutAlbum";
 
 const Checkout = () => {
@@ -8,11 +9,15 @@ const Checkout = () => {
                 <h1>Your Cart</h1>
             </div>
             <div className="cart-items">
-                <CheckoutAlbum />
+                <div className="table">
+                    <p>Album</p>
+                    <p>Price</p>
+                    <p>Amount</p>
+                    <p>Total</p>
+                </div>
+                <CheckoutAlbum /> {/* Use map to iterate over all albums within the cart*/}
             </div>
-            <div className="cart-totals">
-                
-            </div>
+            <CartTotals />
         </div>
     );
 }

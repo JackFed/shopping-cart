@@ -21,6 +21,7 @@ const Album = () => {
             </div>
             <div className="order">
                 <div className="pricing">$29.99</div>
+                <p>Quantity</p>
                 <QuantityBtn />
                 <div className="add-cart">Add To Cart</div>
             </div>
