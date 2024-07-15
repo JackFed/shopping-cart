@@ -1,3 +1,5 @@
+import QuantityBtn from "./QuantityBtn";
+
 const Album = () => {
 
     return (
@@ -19,12 +21,7 @@ const Album = () => {
             </div>
             <div className="order">
                 <div className="pricing">$29.99</div>
-                <div className="amount">
-                    <p>Quantity</p>
-                    <button>-</button>
-                    <div className="quantity">1</div>                    
-                    <button>+</button>
-                </div>
+                <QuantityBtn />
                 <div className="add-cart">Add To Cart</div>
             </div>
         </div>
