@@ -1,6 +1,7 @@
 import StoreItems from "./components/StoreItems"
 import HomePage from "./components/HomePage"
 import NavBar from "./components/NavBar"
+import Album from "./components/Album"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <HomePage />
       <StoreItems />
+      <Album />
     </>
   )
 }
