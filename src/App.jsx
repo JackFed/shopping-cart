@@ -6,14 +6,15 @@ import { useState } from "react"
 
 function App() {
 
-  const [cart, setCart] = useState([{item: 0}]);
+  const [cart, setCart] = useState([{quantity: 0, album: {title:"BRAT"}}]);
 
+  console.log(cart)
 
   return (
     <>
       <NavBar itemCount={cart.length}/>
       <HomePage />
-      <Album addAlbum={setCart}/>
+      <Album addAlbum={setCart} />
       <Checkout />
     </>
   )

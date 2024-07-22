@@ -1,12 +1,22 @@
 import "../styles/QuantityBtn.css";
 
-const QuantityBtn = ({ quant }) => {
+const QuantityBtn = ({ quant, setQuant }) => {
+
+    const addQuant = () => {
+        setQuant(prev => prev + 1);
+    }
+
+    const subQuant = () => {
+        if ( quant > 0) {
+            setQuant(prev => prev - 1);
+        }
+    }
 
     return (
         <div className="amount">
-            <button>-</button>
+            <button onClick={subQuant}>-</button>
             <div className="quantity">{quant}</div>                    
-            <button>+</button>
+            <button onClick={addQuant}>+</button>
         </div>
     );
 }

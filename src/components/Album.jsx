@@ -5,6 +5,21 @@ import { useState } from "react";
 const Album = ({ addAlbum }) => {
 
     const [quantity, setQuantity] = useState(1);
+    const newAlbum = {title: "BRAT"};
+
+    const handleAddAlbum = () => {
+        addAlbum((prevCart) => {
+            const albumIndex = prevCart.findIndex(item => item.album.title === newAlbum.title);
+            if (albumIndex > -1) {
+                // Album already in the cart, update the quantity
+                const updatedCart = [...prevCart];
+                updatedCart[albumIndex].quantity += quantity;
+                return updatedCart;
+            } else {
+                return [...prevCart, newAlbum];
+            }
+        });
+    };
 
     return (
         <div className="album">
@@ -27,9 +42,9 @@ const Album = ({ addAlbum }) => {
                 <div className="order">
                     <div className="pricing">$29.99</div>
                     <p>Quantity</p>
-                    <QuantityBtn quant={quantity} />
+                    <QuantityBtn quant={quantity} setQuant={setQuantity} />
                 </div>
-                <button className="add-cart">Add To Cart</button>
+                <button className="add-cart" onClick={handleAddAlbum}>Add To Cart</button>
             </div>
         </div>
     )
