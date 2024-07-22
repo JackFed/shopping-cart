@@ -1,3 +1,5 @@
+import "../styles/NavBar.css"
+
 const NavBar = ({ itemCount }) => {
 
     return (
@@ -5,9 +7,8 @@ const NavBar = ({ itemCount }) => {
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Store</a></li>
-                <li className="cart">
-                    <a href="#">My Cart</a>
-                    <p>({itemCount} Item(s))</p>
+                <li>
+                    <a href="#">My Cart ({itemCount} Items)</a>
                 </li>
             </ul>
         </nav>
