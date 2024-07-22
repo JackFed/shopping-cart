@@ -5,7 +5,7 @@ import { useState } from "react";
 const Album = ({ addAlbum }) => {
 
     const [quantity, setQuantity] = useState(1);
-    const newAlbum = {title: "BRAT"};
+    const newAlbum = {title: "DAMN"};
 
     const handleAddAlbum = () => {
         addAlbum((prevCart) => {
@@ -16,7 +16,7 @@ const Album = ({ addAlbum }) => {
                 updatedCart[albumIndex].quantity += quantity;
                 return updatedCart;
             } else {
-                return [...prevCart, newAlbum];
+                return [...prevCart, {quantity: quantity, album: newAlbum}];
             }
         });
     };
