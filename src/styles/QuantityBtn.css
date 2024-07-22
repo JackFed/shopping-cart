@@ -1,0 +1,11 @@
+.amount {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.amount button {
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}

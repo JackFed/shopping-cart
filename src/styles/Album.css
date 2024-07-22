@@ -1,0 +1,27 @@
+.album {
+    display: flex;
+    gap: 1em;
+}
+
+.album-info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid black;
+    padding: 1em;
+    align-items: start;
+}
+
+.order {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.add-cart {
+    align-self: center;
+    width: 85%;
+    min-height: 40px;
+}

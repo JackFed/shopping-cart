@@ -1,9 +1,11 @@
-const QuantityBtn = () => {
+import "../styles/QuantityBtn.css";
+
+const QuantityBtn = ({ quant }) => {
 
     return (
         <div className="amount">
             <button>-</button>
-            <div className="quantity">1</div>                    
+            <div className="quantity">{quant}</div>                    
             <button>+</button>
         </div>
     );

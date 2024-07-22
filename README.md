@@ -17,13 +17,13 @@ features, record label, and album cover image.
     - Search bar
     - Display (Describe products/company)
 * Shop page
-    - Items
-    - Next page bar    
+    - Items (Albums)
+    - Next page bar (extra)    
 * Cart
     - Selected Items
     - Price
     - Checkout button
-* Items
+* Items (Albums)
     - Can have variant that is selected items
     - Quantity
     - Cost

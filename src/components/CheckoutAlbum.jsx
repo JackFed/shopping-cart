@@ -9,7 +9,7 @@ const CheckoutAlbum = () => {
             <div className="title">Album title</div>
             <div className="price">$22.99</div>
             
-            <QuantityBtn />            
+            <QuantityBtn quant={1}/>            
             <div className="remove">remove</div>
             <div className="total-price">$22.99</div>
         </div>
